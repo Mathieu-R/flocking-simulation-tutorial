@@ -19,3 +19,6 @@ Exit julia REPL with `^C` then `exit()` and launch project.
 ```bash
 $ julia --project index.jl
 ```
+
+
+![flock simulation](./flock.gif)
