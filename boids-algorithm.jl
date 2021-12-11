@@ -72,7 +72,7 @@ function border(i)
 end 
 
 # create a distance method
-function distance(bird1::Circle, bird2::circle)
+function distance(bird1::Circle, bird2::Circle)
   # GameZero need "integer" positions
   norm = Int(round(sqrt( (bird2.x - bird1.x)^2 + (bird2.y - bird1.y)^2 )))
   return norm

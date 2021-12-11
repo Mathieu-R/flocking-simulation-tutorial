@@ -1,3 +1,4 @@
+#!/usr/bin/env julia 
 using GameZero
 
-rungame("boids-algorithm.jl")^
+rungame("boids-algorithm.jl")
